@@ -1,10 +1,9 @@
 import os
 os.system("cls")
 
-estatura = int(input("ingrese su estatura en el formato ingles :"))
+pies = int(input("pies :"))
+pulgadas = int(input("pulgadas :"))
 
+estatura = (((pies * 12)+ pulgadas) * 2.54) / 100
 
-
-
-
-print("su estatura sera de ",)
+print("su estatura en metros es :",format(estatura,".2f"),"m")
