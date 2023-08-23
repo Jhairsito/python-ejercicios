@@ -8,5 +8,5 @@ total = varones + mujeres
 Pm = (mujeres / total)*100
 Pv = (varones / total)*100
 
-print ("porsentaje de varones en el aula :{:.2f}%".format(Pv))
-print ("porsentaje de mujeres en el aula :{:.2f}%".format(Pm))
+print ("porcentaje de varones en el aula :{:.2f}%".format(Pv))
+print ("porcentaje de mujeres en el aula :{:.2f}%".format(Pm))
